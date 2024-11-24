@@ -1,0 +1,16 @@
+{
+  "name": "wonderbot",
+  "version": "1.0.0",
+  "description": "wonder bot",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bill Wilson",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.15.2",
+    "node-cron": "^3.0.3",
+    "rss-parser": "^3.13.0"
+  }
+}
