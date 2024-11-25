@@ -141,7 +141,7 @@ var UserInteractionLibrary = {
       
               let embed = new EmbedBuilder()
               .setTitle(title_String)
-              .setAuthor({name: `${user.name}`, iconURL: `${user.iconURL}`, url: 'https://letterboxd.com/' +  + user.userName + '/' })
+              .setAuthor({name: `${user.displayName}`, iconURL: `${user.iconURL}`, url: 'https://letterboxd.com/' + user.userName + '/' })
               .setURL(item.link)
               .setThumbnail(posterImageUrl)
               .addFields({name: 'Watched Date', value: `\`\`\`${watchedOn}\`\`\``},
