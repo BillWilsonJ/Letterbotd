@@ -65,7 +65,7 @@ var UserInteractionLibrary = {
         display_name = message_split[1];
         userName = message_split[2];
 
-        return_string = UserDatabaseLibrary.UpdateDisplayName(display_name,userName);
+        return_string = UserDatabaseLibrary.UpdateUserName(display_name,userName);
         return return_string;
     },
     ParseDisplayUser: function(message){
